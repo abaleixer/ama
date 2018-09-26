@@ -1,0 +1,26 @@
+{
+  "name": "ama",
+  "version": "1.0.0",
+  "description": "Ama Academy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abaleixer/ama.git"
+  },
+  "author": "Aleixer Alvarado Bernal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abaleixer/ama/issues"
+  },
+  "homepage": "https://github.com/abaleixer/ama#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0"
+  }
+}
